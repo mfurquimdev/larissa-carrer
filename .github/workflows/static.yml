@@ -33,11 +33,18 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.12
+      - name: Build Static Site
+        run: |
+          bun install --global nuekit
+          nue build --production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.dist'
+          path: '.dist/prod'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

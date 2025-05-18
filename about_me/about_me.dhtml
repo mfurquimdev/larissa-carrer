@@ -1,0 +1,4 @@
+
+<script>
+  import { loadPage } from '/@nue/view-transitions.js'
+</script>

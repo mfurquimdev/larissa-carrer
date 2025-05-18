@@ -1,0 +1,7 @@
+
+/* contact page layout */
+main article section {
+  max-width: none;
+  h1, p { text-align: left }
+}
+

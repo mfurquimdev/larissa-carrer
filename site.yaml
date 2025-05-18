@@ -8,15 +8,15 @@ native_css_nesting: true
 inline_css: true
 sections: true
 
-title_template: "Emma Bennet / %s"
+title_template: "Larissa Carrer / %s"
 og_image: /img/og_emma.png
-author: Emma Bennet
+author: Larissa Carrer
 favicon: /img/favicon.jpg
-description: Minimalist, designer, and UX developer
+description: Artesã e Personalisáveis
 port: 8083
 
 # OG image
-origin: https://simple-blog.nuejs.org
+origin: https://mfurquimdev.github.io/larissa-carrer
 og: /img/og.jpg
 
 
@@ -29,17 +29,12 @@ navigation:
   footer:
     - © Larissa Carrer: /
 
-    - image: /img/twitter.svg
-      url: //x.com/tipiirai
-      alt: Twitter (X) profile
-      size: 22 x 22
-
     - image: /img/github.svg
-      url: //github.com/nuejs/nue/
+      url: //github.com/mfurquimdev/larissa-carrer
       alt: Github Projects
       size: 22 x 22
 
     - image: /img/linkedin.svg
-      url: //linkedin.com/in/tipiirai
+      url: //linkedin.com/in/redatoracarrer/
       alt: LinkedIn profile
       size: 22 x 22

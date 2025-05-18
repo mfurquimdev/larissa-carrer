@@ -1,7 +1,6 @@
 ---
-include: [form]
 inline_css: true
-title: Contact me
+title: Sobre mim
 ---
 
 [.stack]
